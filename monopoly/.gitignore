@@ -1,0 +1,24 @@
+# Compiler files
+cache/
+out/
+!out/Monopoly.s/*
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+broadcast/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# logs
+gas_report
+*.log
+
+# lcov
+lcov.info
+coverage-report/
